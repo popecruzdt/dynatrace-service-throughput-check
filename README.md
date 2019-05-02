@@ -6,7 +6,7 @@ The proper/preferred method for testing whether or not a service is available is
 This function will be executed in AWS and will need to reach the Dynatrace API URL.  This will be OK for Dynatrace SaaS environments, but will probably not work for Dynatrace Managed environments.  For Dynatrace Managed environments, use proxy servers and/or firewall changes to expose the Dynatrace API URL to AWS.
 
 ### Prerequisites
-1) Dynatrace environment API URL, such as 'abc123.live.dynatrace/api/v1/' (trailing slash included)
+1) Dynatrace environment API URL, such as 'https://abc123.live.dynatrace/api/v1/' (trailing slash included)
 2) Dynatrace environment API Token, refer to: https://www.dynatrace.com/support/help/shortlink/api-authentication
 3) Dynatrace environment Service-ID value, such as 'SERVICE-88BB3B253335AF2C'
 
