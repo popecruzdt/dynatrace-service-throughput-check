@@ -27,7 +27,7 @@ The Node.js function makes use of environment variables for configuration.  All 
 
 ``apitoken`` = ``<Dynatrace Environment API Token Value>``\
 ``endpoint`` = ``<Dynatrace Environment API Endpoint Value>``\
-``relativetime`` = ``x mins`` refer to: https://www.dynatrace.com/support/help/shortlink/api-metrics-data-points#possible-values \
+``relativetime`` = ``xmins`` refer to: https://www.dynatrace.com/support/help/shortlink/api-metrics-data-points#possible-values \
 ``serviceid`` = ``<Dynatrace Environment Service-ID Value>``\
 ``threshold`` = ``<non-inclusive threshold value>`` A value of 1 would generate a problem if result is less than 1.\
 ``eventtimeout`` = ``number of minutes between checks + 1`` If checking every 5 minutes, set value to 6.\
