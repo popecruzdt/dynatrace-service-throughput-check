@@ -37,8 +37,8 @@ The Node.js function makes use of environment variables for configuration.  All 
 
 ### Testing the function
 When testing the function, the Testing Event content does not matter.  Using a default template is fine.\
-A successful test should return ``Throughput OK`` or ``Throughput LOW``.\ 
-Example log output of a request where the value of count is greater than or equal to the threshold.\
+A successful test should return ``Throughput OK`` or ``Throughput LOW``.\
+Example log output of a request where the value of count is greater than or equal to the threshold.
 ```
 START RequestId: 83463589-72f2-4ced-8a7b-bf6e31565c57 Version: $LATEST
 2019-05-02T21:44:58.497Z	83463589-72f2-4ced-8a7b-bf6e31565c57	Status: 200
